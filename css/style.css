@@ -27,6 +27,12 @@ p{
   text-align: center;
 }
 
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .row{
   float: left;
   margin-top: 50px;
@@ -37,6 +43,23 @@ p{
 }
 
 img{
+  float: left;
   width: auto;
   height: 90px;
+}
+
+.description{
+  color: #fff;
+  float: left;
+  margin: 12px;
+  font-size: 15px;
+}
+
+a{
+text-decoration: none;
+color: #6ECBF2;
+}
+
+.team{
+  margin-bottom: 5px;
 }
