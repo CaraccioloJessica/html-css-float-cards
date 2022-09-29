@@ -35,3 +35,8 @@ p{
   height: 90px;
   background-color: #0F0E17;
 }
+
+img{
+  width: auto;
+  height: 90px;
+}
